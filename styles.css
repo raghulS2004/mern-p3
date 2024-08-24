@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #898a87;
+    padding: 40px 20px;
+    text-align: right;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 40px;
+}
+nav h1{
+    float: left;
+    margin: auto;
+    color: #674188;
+}
+section{
+    margin: 50px 0;
+}
+.leftc{
+    width: 40%;
+    display:inline-block ;
+    margin: 0 40px;
+}
+.rightc{
+    width: 50%;
+    float: right;
+}
+section h2{
+    color: #674188;
+}
+section p{
+    font-size: 4rem;
+    display: inline;
+}
+.brand{
+    display: inline;
+    font-size: 5rem;
+    color: #674188;
+}
+section img{
+width: 50vw;
+border-radius: 10px;
+
+}
+section select{
+    display: block;
+    margin-top: 8vh ;
+    background-color: #898a87;
+    
+    width: 45vw;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+}
+section button{
+    width: 25vw;
+    background-color: #674188;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 7vh 0;
+}
+.destination{
+    margin: 0 20px;
+    display: inline-block;
+}
+.destination h2{
+    font-size: 2rem;
+    color: #674188;
+    margin: 0;
+    font-family: cursive;
+}
+.destination p{
+    margin: 0 0 40px;
+    font-size: 1.2rem;
+    color: #674188;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box{
+    padding: 10px;
+    display: inline-block;
+    /* border: 1px solid grey; */
+    width: 30%;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box img{
+    width: 30vw;
+    height: 40vh;
+}
+.box button{
+    color: white;
+    background-color: #674188;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 15%;
+    width: 20vw;
+}
+.contact{
+    background-color: #898a87;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact h3{
+    color: #674188;
+    font-size: 1.8rem;
+    padding: 5vh 0;
+    text-align: center;
+}
+form{
+    margin: 0 40vw;
+    font-size: 1.2rem;
+}
+
+form input{
+    margin: 1.2vh 0 3.5vh;
+    width: 25vw;
+    height: 5vh;
+
+}
+footer{
+    padding: 3vh;
+    text-align: center;
+    background-color: grey;
+}
